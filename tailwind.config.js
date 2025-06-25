@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        lora: ['Lora', 'sans-serif'],
+      },
+      colors: {
+        primary: "#1D2939",
+        secondary: "#5E3AEF",
+      }
+    },
   },
   plugins: [],
 }
