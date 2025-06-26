@@ -2,7 +2,7 @@ import AppButton from "./AppButton";
 
 export default function AppHeader() {
     return (
-        <div className="bg-primary text-white flex justify-between items-center px-[8px] sm:px-[16px] py-[8px] grow mt-[24px] mx-[16px] sm:mx-[32px] xl:mx-[80px] rounded-[12px] border font-lora relative z-50">
+        <div className="bg-primary text-white flex justify-between items-center px-[8px] sm:px-[16px] py-[6px] grow mt-[24px] mx-[16px] sm:mx-[32px] xl:mx-[200px] rounded-[12px] border font-lora relative z-50">
             <div>
                 <img className="h-[40px] w-[133px]" src="./logo.png" alt="dandevlabs" />
             </div>
