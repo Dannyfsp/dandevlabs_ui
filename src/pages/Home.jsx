@@ -2,6 +2,9 @@ import AppHeader from "../components/ui/AppHeader"
 import AboutSection from "../components/home/AboutSection";
 import HeroSection from "../components/home/HeroSection";
 import InfoSection from "../components/home/InfoSection";
+import ServicesSection from "../components/home/ServicesSection";
+import TestimonialSection from "../components/home/TestimonialSection";
+import CarouselSection from "../components/home/CarouselSection";
 
 export default function Home() {
     return (
@@ -10,6 +13,9 @@ export default function Home() {
             <HeroSection />
             <AboutSection />
             <InfoSection />
+            <ServicesSection />
+            <TestimonialSection />
+            <CarouselSection />
         </div>
     )
 }

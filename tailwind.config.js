@@ -6,6 +6,15 @@ export default {
   ],
   theme: {
     extend: {
+      keyframes: {
+        'scroll-diagonal': {
+          '0%': { transform: 'translateX(0) translateY(0)' },
+          '100%': { transform: 'translateX(-100%) translateY(0)' },
+        },
+      },
+      animation: {
+        'scroll-diagonal': 'scroll-diagonal 60s linear infinite',
+      },
       fontFamily: {
         lora: ['Lora', 'sans-serif'],
       },

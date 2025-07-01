@@ -2,7 +2,7 @@ import AppButton from "../ui/AppButton";
 
 export default function InfoSection() {
     return (
-        <div className="flex flex-col sm:flex-row sm:justify-between gap-4 xl:mx-[200px] sm:mx-[32px] mx-[16px] mt-[110px] font-lora">
+        <div className="flex flex-col sm:flex-row sm:justify-between gap-4 xl:mx-[200px] sm:mx-[32px] mx-[16px] mt-[110px] mb-[60px] font-lora">
             <div className="flex flex-col gap-4 xl:max-w-[600px] sm:max-w-[400px] lg:max-w-[500px] self-start">
                  <div className="relative flex grow gap-[2px] mb-2">
                     <p className="lg:text-[48px] text-[32px] font-semibold">About <span className="text-secondary">Dandevlabs</span></p>

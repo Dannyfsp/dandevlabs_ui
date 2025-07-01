@@ -36,7 +36,7 @@ const AboutItems = [
 
 export default function AboutSection() {
     return (
-        <div className="font-lora xl:mx-[200px] sm:mx-[32px] mx-[16px] mt-[40px]">
+        <div className="font-lora xl:mx-[200px] sm:mx-[32px] mx-[16px] mt-[80px]">
             <div className="relative flex grow gap-[2px]">
                 <p className="lg:text-[48px] text-[32px] font-semibold">Why <span className="text-secondary">Hire Us</span>?</p>
                 <div className="absolute -top-3 left-[210px] lg:left-[315px]">
