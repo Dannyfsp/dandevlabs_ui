@@ -13,7 +13,7 @@ export default function ScrollCarousel() {
             pauseOnHover
             className="py-2 bg-gray-100"
         >
-            <div class="flex gap-8">
+            <div className="flex gap-8">
                 <img className="w-[30px] h-[30px] inline-block" src="./star.png" alt="star" />
                 <div className="flex gap-1 items-center">
                     <div>Figma</div>
